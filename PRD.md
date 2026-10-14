@@ -3,6 +3,38 @@
 ## Task / Objective: 
 `State the core goal of the screen or flow in one sentence (e.g., "Create a mobile activity-tracking dashboard for users to log daily steps and view weekly charts.").`
 
+Create an application called "Candor" that helps people applying for work receive better feedback when being unsuccessful when looking for work. "Candor" will also help recruiters and talent acquisition better assess candidates against job description categories.
+
+For Recruiter and Talent Acquistion:
+- Recruiters can state a full job description for a role vacancy into and judge applicants by content and context discovered in their cover letter, resume, and cv.
+- The job description generates category benchmarks that applicants are judged and scored against. These benchmark categories can be manually adjusted by recruiters if need be.
+- Applicant applications can be uploaded to the job description for analysis. This will collect and generate a profile based on uploaded material such as cover letter, resume, and cv.
+- Applicants are scored against benchmarks, and can see how applicants rate against the benchmark.
+- Stronger applicants can be automatically collected and flagged against benchmarks for recruiters.
+- A recruiter can highlight a chosen number of top applicants. ie. "group the top 20 applicants" 
+- Benchmarks value sets can be updated based on top applicant ratings as a new version of bench marking. Previous sets for a job description are still visible by selecting a version. This is non destructive.
+- An individual applicant can be selected to see how they rate against benchmarking.
+- The average rating of all applicants can be selected to see against benchmarking.
+- Single button notification of successful and unsuccessful candidates.
+- Recruiters can add stages for recruitment processes. ie. Screening interview, 1st Round interview, Technical interview, etc.
+- Job descriptions can not be editted once posted.
+- Recruiter can add an application deadline time and date to thier listing.
+- Job description listing can be ended or closed for applications early.
+
+For Applicants and Candidates:
+- A candidate can see the job description in full and key category benchmark ratings before starting an application.
+- A candidate can upload their application for preview against the job description benchmarking to see how they rate before confirming their application.
+- When notified of being unsuccessful, they are emailed feedback on the metrics of their application against the job description and other candidates ratings. The goal is the help unsuccessful candidates pin point areas of improvement, details to include or consider for next time, and what successful candidates did or had that was different to them.
+- For Applicant view, they can see how they rated in against:
+  - successful applicant average.
+  - successful applicant base line and range.
+  - initial job description benchmarking and its version if they exist.
+- All other candidate personal details and contact details are anonymised for privacy and security.
+- Other context can to deleivered outside of the benchmarking catergories it appears in successful candidate profiles.
+- Give applicants to option to view a parsed version of their application materials one by one so they can review and see if they need to make changes or fix errors before completing application. Changes will re-analysis their application material. This will help with automated text system readers and make sure the current is correct to the applicant. 
+- If unsuccessful at the initial application stage, send applicants a parsed version of their application materials so they can review and see if they need to make changes or fix errors before completing application. Changes will re-analysis their application material. 
+ 
+
 
 ## Output Specification: 
 `Define the exact deliverables you expect from Figma (e.g., "A 3-screen interactive prototype covering Empty State, Active Data State, and Error/Offline State").`
